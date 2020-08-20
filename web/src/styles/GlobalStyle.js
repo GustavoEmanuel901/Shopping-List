@@ -29,6 +29,11 @@ export default createGlobalStyle`
         color: #000;
     }
 
+    h1 {
+        text-align: center;
+        padding: 20px 0;
+    }
+
     .button {
         width: 100%;
         height: 60px;

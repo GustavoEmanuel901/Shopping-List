@@ -13,8 +13,6 @@ export const Container = styled.div`
   box-shadow: 1px 1px 10px black;
 
   h1 {
-    text-align: center;
-    padding: 20px 0;
     border-bottom: 1px solid #ccc;
   }
 
@@ -56,5 +54,11 @@ export const Container = styled.div`
 
   .link:hover {
     opacity: 0.7;
+  }
+
+  @media (max-width: 570px) {
+    & {
+      height: 90vh;
+    }
   }
 `;
